@@ -1,0 +1,8 @@
+U-Boot loader and related files for the Nvidia Jetson TX1.
+
+To install this bootloader on an sdcard:
+ - Download L4T Driver Package (BSP) from https://developer.nvidia.com/embedded/linux-tegra
+ - Refer to upstream documentation to flash u-boot, with a linux machine execute
+   something like ./flash.sh XXX jetson-tx1 mmcblk0p1 (good luck with it)
+
+WWW: https://www.denx.de/wiki/U-Boot
